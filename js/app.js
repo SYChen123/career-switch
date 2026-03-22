@@ -420,6 +420,50 @@ const knowledgeLinks = {
     }
 };
 
+// Attempt to load external data (data/industries.json and per-industry links). Falls back to inline data if fetch fails.
+async function loadExternalData() {
+    try {
+        const resp = await fetch('data/industries.json', {cache: 'no-store'});
+        if (resp.ok) {
+            const externalIndustries = await resp.json();
+            if (Array.isArray(externalIndustries) && externalIndustries.length > 0) {
+                // replace industries array in-place
+                window.externalIndustries = externalIndustries; // for debugging
+                industries.length = 0;
+                externalIndustries.forEach(i => industries.push(i));
+                renderIndustries();
+            }
+        }
+    } catch (e) {
+        console.warn('Failed to load external industries.json:', e);
+    }
+}
+
+// Try to fetch per-industry links file when needed
+async function fetchLinksForIndustry(id) {
+    // if already present in knowledgeLinks, return it
+    if (knowledgeLinks[id]) return knowledgeLinks[id];
+    try {
+        const resp = await fetch(`data/links/${id}.json`, {cache: 'no-store'});
+        if (resp.ok) {
+            const links = await resp.json();
+            /* Expecting structure: either { moduleName: [links...] } or an array of links
+               If array, wrap into a default module. */
+            let structured = {};
+            if (Array.isArray(links)) {
+                structured['推荐资源'] = links;
+            } else {
+                structured = links;
+            }
+            knowledgeLinks[id] = structured;
+            return structured;
+        }
+    } catch (e) {
+        console.warn('Failed to fetch links for', id, e);
+    }
+    return null;
+}
+
 // DOM 元素
 const industriesGrid = document.getElementById('industriesGrid');
 const searchInput = document.getElementById('searchInput');
@@ -458,17 +502,28 @@ function renderIndustries(data = industries) {
 }
 
 // 打开弹窗
-function openModal(id) {
+async function openModal(id) {
     const industry = industries.find(i => i.id === id);
-    const links = knowledgeLinks[id];
-    
-    if (!industry || !links) return;
-    
+    if (!industry) return;
+
+    // attempt to fetch links for this industry (falls back to inline knowledgeLinks)
+    let links = knowledgeLinks[id];
+    if (!links) {
+        links = await fetchLinksForIndustry(id);
+    }
+
+    if (!links) {
+        modalBody.innerHTML = `<div class="empty-state"><h3>尚无资源</h3><p>暂无可用资源，您可以提交或稍后重试。</p></div>`;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        return;
+    }
+
     let html = `
         <h2 style="margin-bottom: 10px;">${industry.from} → ${industry.to}</h2>
         <p style="color: var(--text-light); margin-bottom: 30px;">${industry.desc}</p>
     `;
-    
+
     for (const [moduleName, moduleLinks] of Object.entries(links)) {
         html += `
             <div class="knowledge-section">
@@ -478,11 +533,13 @@ function openModal(id) {
                         <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="link-item">
                             <div class="link-info">
                                 <div class="link-title">${link.title}</div>
-                                <div class="link-desc">${link.desc}</div>
+                                <div class="link-desc">${link.desc || (link.description || '')}</div>
+                                ${link.stage ? `<div class="badge" style="margin-top:8px;">${link.stage}</div>` : ''}
+                                ${link.prerequisites ? `<div style="font-size:0.85rem;color:var(--text-light);margin-top:6px;">预备知识: ${link.prerequisites}</div>` : ''}
                             </div>
                             <div class="link-scores">
-                                <div class="score relevance">相关性 ${link.relevance}/10</div>
-                                <div class="score quality">质量 ${link.quality}/10</div>
+                                ${typeof link.relevance !== 'undefined' ? `<div class="score relevance">相关性 ${link.relevance}/10</div>` : ''}
+                                ${typeof link.quality !== 'undefined' ? `<div class="score quality">质量 ${link.quality}/10</div>` : ''}
                             </div>
                         </a>
                     `).join('')}
@@ -490,7 +547,7 @@ function openModal(id) {
             </div>
         `;
     }
-    
+
     modalBody.innerHTML = html;
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
