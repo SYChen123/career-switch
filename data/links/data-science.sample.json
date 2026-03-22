@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Coursera - Data Science Specialization",
+    "desc": "经典的数据科学课程系列，涵盖统计、R语言、数据清洗与可视化",
+    "url": "https://www.coursera.org/specializations/jhu-data-science",
+    "source": "coursera.org",
+    "relevance": 9,
+    "quality": 9,
+    "fetched_at": "2026-03-22T00:00:00Z",
+    "note": "sample - replace if needed"
+  },
+  {
+    "title": "B站 - 数据分析入门课程",
+    "desc": "中文视频教程，适合零基础学习者",
+    "url": "https://www.bilibili.com/",
+    "source": "bilibili.com",
+    "relevance": 8,
+    "quality": 7,
+    "fetched_at": "2026-03-22T00:00:00Z",
+    "note": "sample"
+  }
+]

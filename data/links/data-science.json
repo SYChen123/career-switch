@@ -1,0 +1,10 @@
+[
+  {"title":"Data Science Specialization (Coursera - Johns Hopkins)","desc":"A comprehensive 10-course introduction to data science covering R, statistics, and data products.","url":"https://www.coursera.org/specializations/jhu-data-science","source":"coursera.org","relevance":9,"quality":9,"fetched_at":"2026-03-22T14:54:02Z"},
+  {"title":"Kaggle Learn","desc":"Hands-on micro-courses and practical tutorials for data science and ML.","url":"https://www.kaggle.com/learn","source":"kaggle.com","relevance":9,"quality":8,"fetched_at":"2026-03-22T14:56:42Z","note":"may require JS/recaptcha for scraping"},
+  {"title":"scikit-learn: Tutorials","desc":"Official scikit-learn tutorials and examples for classic ML algorithms.","url":"https://scikit-learn.org/stable/tutorial/index.html","source":"scikit-learn.org","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Coursera - IBM Data Science Professional Certificate","desc":"Entry-level professional certificate covering Python, SQL, and data visualization.","url":"https://www.coursera.org/professional-certificates/ibm-data-science","source":"coursera.org","relevance":8,"quality":8,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"edX - Data Science MicroMasters","desc":"University-backed Data Science programs and MicroMasters tracks.","url":"https://www.edx.org/learn/data-science","source":"edx.org","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"DataCamp - Data Scientist with Python","desc":"Interactive Python-focused data science tracks and projects.","url":"https://www.datacamp.com/","source":"datacamp.com","relevance":8,"quality":7,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Towards Data Science (Medium)","desc":"Community articles on practical data science, tutorials and case studies.","url":"https://towardsdatascience.com/","source":"medium.com","relevance":7,"quality":7,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Bilibili - 数据分析/数据科学 视频教程合集","desc":"中文视频教程与实操课程集合（平台页）。","url":"https://www.bilibili.com/","source":"bilibili.com","relevance":7,"quality":6,"fetched_at":"2026-03-22T14:56:00Z"}
+]

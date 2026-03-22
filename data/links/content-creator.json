@@ -1,0 +1,5 @@
+[
+  {"title":"Bilibili - 视频教程与创作学院","desc":"哔哩哔哩平台上大量的创作与剪辑教程，适合中文短视频与内容制作学习。","url":"https://www.bilibili.com/","source":"bilibili.com","relevance":8,"quality":7,"fetched_at":"2026-03-22T15:20:04Z","note":"平台页，需在平台内搜索具体课程/UP主"},
+  {"title":"YouTube - Creator Academy","desc":"YouTube 官方的创作者学院，系统讲解内容策略、制作与变现。","url":"https://creatoracademy.youtube.com/","source":"youtube.com","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:20:00Z"},
+  {"title":"知乎 - 内容创业话题","desc":"中文社区的长文与问答资源，适合学习内容策略与案例分析。","url":"https://www.zhihu.com/","source":"zhihu.com","relevance":7,"quality":7,"fetched_at":"2026-03-22T15:20:00Z","note":"需筛选高质量回答"}
+]

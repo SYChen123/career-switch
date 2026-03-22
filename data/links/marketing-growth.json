@@ -1,0 +1,5 @@
+[
+  {"title":"HubSpot Academy - Free Marketing Courses","desc":"HubSpot 的免费营销与内容课程，覆盖 inbound、content、email 等基础与进阶知识。","url":"https://academy.hubspot.com/","source":"hubspot.com","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:20:00Z","note":"适合建立系统化的市场与增长知识体系"},
+  {"title":"Moz - What is SEO?","desc":"权威的 SEO 入门与实践指南，适合系统学习搜索引擎优化基础。","url":"https://moz.com/learn/seo/what-is-seo","source":"moz.com","relevance":8,"quality":9,"fetched_at":"2026-03-22T15:20:00Z","note":"部分页面可能对爬虫有防护"},
+  {"title":"GrowthHackers","desc":"增长黑客社区与案例分享，适合学习增长实战与策略。","url":"https://growthhackers.com/","source":"growthhackers.com","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:20:00Z","note":"社区内容需筛选"}
+]

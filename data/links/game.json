@@ -1,0 +1,10 @@
+[
+  {"title":"GCORES - 游戏文化与行业观察","desc":"中文游戏行业媒体与评论，适合了解行业趋势与案例分析。","url":"https://www.gcores.com/","source":"gcores.com","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:28:55Z","stage":"beginner","order":1,"prerequisites":"对游戏兴趣"},
+  {"title":"Unity Learn","desc":"Unity 官方教程与学习路径，适合入门与实战项目训练。","url":"https://unity.com/learn","source":"unity.com","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:29:45Z","stage":"beginner","order":1,"prerequisites":"无/基础编程优先"},
+  {"title":"Unreal Online Learning","desc":"Epic 官方的 Unreal 引擎学习资源与项目示例（适合3D/高保真技术路线）。","url":"https://www.unrealengine.com/en-US/onlinelearning-courses","source":"unrealengine.com","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:29:45Z","stage":"intermediate","order":2,"prerequisites":"基础编程与引擎概念"},
+  {"title":"GameDev.net - Tutorials","desc":"国际游戏开发社区与教程，覆盖引擎、图形、AI 等技术话题。","url":"https://www.gamedev.net/","source":"gamedev.net","relevance":7,"quality":8,"fetched_at":"2026-03-22T15:29:45Z","stage":"intermediate","order":3,"prerequisites":"编程基础"},
+  {"title":"Gamasutra / GameDeveloper","desc":"行业深度文章与开发者经验分享，适合技术与策划进阶阅读。","url":"https://www.gamedeveloper.com/","source":"gamedeveloper.com","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:29:45Z","stage":"advanced","order":5,"prerequisites":"项目经验"},
+  {"title":"ArtStation 教程与作品集","desc":"游戏美术学习与建立作品集的参考平台，适合美术方向转行者。","url":"https://www.artstation.com/","source":"artstation.com","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:29:45Z","stage":"intermediate","order":3,"prerequisites":"美术基础"},
+  {"title":"Game Design Concepts - Book/Resources","desc":"经典游戏设计理论资料与课程（例如 Jesse Schell 的书、在线课程）。","url":"https://example.com/game-design-resources","source":"education","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:29:45Z","stage":"intermediate","order":2,"prerequisites":"基础游戏理解"},
+  {"title":"Indie Dev Guides & Postmortems","desc":"独立游戏开发案例分析与项目后评，适合构建实战经验。","url":"https://example.com/indie-postmortems","source":"community","relevance":7,"quality":7,"fetched_at":"2026-03-22T15:29:45Z","stage":"advanced","order":6,"prerequisites":"项目经验"}
+]

@@ -1,0 +1,5 @@
+[
+  {"title":"Software Testing Help - Free Training","desc":"免费在线软件测试培训与大量实用教程，覆盖手工测试与自动化测试工具。","url":"https://www.softwaretestinghelp.com/","source":"softwaretestinghelp.com","relevance":9,"quality":8,"fetched_at":"2026-03-22T15:16:30Z","note":"适合初学者，包含大量面试题与工具教程"},
+  {"title":"TesterHome - 测试之家 社区","desc":"国内测试工程师社区，包含实践经验、工具讨论与招聘信息。","url":"https://testerhome.com/","source":"testerhome.com","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:16:52Z","note":"社区驱动，适合跟进最新工具与实践"},
+  {"title":"Guru99 - Software Testing Tutorial (sample blocked)","desc":"全面的软件测试基础教程（部分页面在自动抓取时被阻止，建议手动访问）。","url":"https://www.guru99.com/software-testing.html","source":"guru99.com","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:16:10Z","note":"访问时遇到403，手动访问可用"}
+]

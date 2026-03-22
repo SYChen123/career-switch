@@ -1,0 +1,54 @@
+{
+  "data-science": [
+    "https://www.coursera.org/",
+    "https://www.zhihu.com/",
+    "https://www.bilibili.com/",
+    "https://www.jiqizhixin.com/"
+  ],
+  "ai-ml": [
+    "https://www.coursera.org/",
+    "https://www.fast.ai/",
+    "https://www.bilibili.com/"
+  ],
+  "cloud-devops": [
+    "https://aws.amazon.com/",
+    "https://cloud.google.com/",
+    "https://www.aliyun.com/",
+    "https://www.bilibili.com/"
+  ],
+  "qa-testing": [
+    "https://www.guru99.com/",
+    "https://www.softwaretestinghelp.com/",
+    "https://testerhome.com/"
+  ],
+  "marketing-growth": [
+    "https://mp.weixin.qq.com/",
+    "https://www.chinacloud.cn/",
+    "https://www.huxiu.com/"
+  ],
+  "content-creator": [
+    "https://www.bilibili.com/",
+    "https://www.zhihu.com/",
+    "https://x.com/"
+  ],
+  "finance": [
+    "https://www.cfainstitute.org/",
+    "https://www.jrj.com.cn/",
+    "https://www.yicai.com/"
+  ],
+  "medical": [
+    "https://www.cnki.net/",
+    "https://www.wikiwand.com/zh/医学",
+    "https://www.pharmnet.com.cn/"
+  ],
+  "game": [
+    "https://www.gcores.com/",
+    "https://www.bilibili.com/",
+    "https://www.gamedev.net/"
+  ],
+  "supply-chain": [
+    "https://www.supplychaindigital.com/",
+    "https://www.logisticsmgmt.com/",
+    "https://www.chinawuliu.com.cn/"
+  ]
+}

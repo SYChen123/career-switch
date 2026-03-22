@@ -1,0 +1,10 @@
+[
+  {"title":"fast.ai - Practical Deep Learning for Coders","desc":"Practical deep learning course with accessible code-first approach.","url":"https://www.fast.ai/","source":"fast.ai","relevance":9,"quality":9,"fetched_at":"2026-03-22T14:54:24Z"},
+  {"title":"Deep Learning Specialization (Coursera - deeplearning.ai)","desc":"Andrew Ng's deep learning series covering neural networks, CNNs, sequence models.","url":"https://www.coursera.org/specializations/deep-learning","source":"coursera.org","relevance":9,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"PyTorch Tutorials","desc":"Official PyTorch tutorials and examples for deep learning.","url":"https://pytorch.org/tutorials/","source":"pytorch.org","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"TensorFlow Tutorials","desc":"Official TensorFlow guides and tutorials for building models.","url":"https://www.tensorflow.org/tutorials","source":"tensorflow.org","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"fast.ai Courses - Practical Deep Learning for Coders, Part 2","desc":"Advanced practical course materials and notebooks.","url":"https://course.fast.ai/","source":"course.fast.ai","relevance":8,"quality":8,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Hugging Face - Transformers Course","desc":"Hands-on course for transformer models and NLP workflows.","url":"https://huggingface.co/course/chapter1","source":"huggingface.co","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"ArXiv - Machine Learning Papers","desc":"Latest preprints in machine learning research.","url":"https://arxiv.org/list/cs.LG/recent","source":"arxiv.org","relevance":7,"quality":8,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Distill.pub - Clear ML Explanations","desc":"Visual and intuitive explanations for ML concepts.","url":"https://distill.pub/","source":"distill.pub","relevance":7,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"}
+]

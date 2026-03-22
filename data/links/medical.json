@@ -1,0 +1,10 @@
+[
+  {"title":"WHO - World Health Organization","desc":"权威的全球公共卫生指南与政策文件，适合了解公共卫生与临床指南概览。","url":"https://www.who.int/","source":"who.int","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:27:11Z","stage":"beginner","order":1,"prerequisites":"医学或生命科学基础（视具体内容而定)"},
+  {"title":"Pharmnet - 医药行业资讯","desc":"医药产业新闻与政策、药品研发与监管信息（中文）。","url":"https://www.pharmnet.com.cn/","source":"pharmnet.com.cn","relevance":8,"quality":7,"fetched_at":"2026-03-22T15:26:47Z","stage":"intermediate","order":3,"prerequisites":"基础医学或科研方法"},
+  {"title":"PubMed/NCBI - 学术文献检索","desc":"检索医学与生物学论文的首选数据库，适合深入学术/临床研究。","url":"https://pubmed.ncbi.nlm.nih.gov/","source":"pubmed.ncbi.nlm.nih.gov","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:27:00Z","stage":"advanced","order":4,"prerequisites":"学术阅读能力与背景知识"},
+  {"title":"丁香园 - 医学社区与病例讨论","desc":"中文医学社区，包含临床讨论、药品与指南解读。","url":"https://www.dxy.cn/","source":"dxy.cn","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:27:00Z","stage":"intermediate","order":2,"prerequisites":"临床基础或医学相关背景"},
+  {"title":"国家药监局官网 - 药品监管与政策","desc":"了解国内药品监管流程、审批与注册指南的官方渠道。","url":"https://www.nmpa.gov.cn/","source":"nmpa.gov.cn","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:27:00Z","stage":"intermediate","order":3,"prerequisites":"对药物研发流程有初步了解"},
+  {"title":"Coursera - 医学相关课程集合","desc":"高校医学与公共卫生课程合集，适合系统学习医学统计、流行病学等课程。","url":"https://www.coursera.org/browse/health","source":"coursera.org","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:27:00Z","stage":"beginner","order":1,"prerequisites":"视课程而定"},
+  {"title":"ClinicalTrials.gov - 临床试验注册与结果","desc":"了解临床试验设计、注册与结果的官方数据库（适合药物研发/临床研究方向）。","url":"https://clinicaltrials.gov/","source":"clinicaltrials.gov","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:27:00Z","stage":"advanced","order":5,"prerequisites":"研究方法与统计基础"},
+  {"title":"医药行业分析报告（示例来源：艾媒/中商情报）","desc":"行业报告帮助理解市场规模与商业模式，适合想进入医药行业的转行者。","url":"https://example.com/medical-report","source":"industry-report","relevance":7,"quality":7,"fetched_at":"2026-03-22T15:27:00Z","stage":"advanced","order":6,"prerequisites":"行业基础与数据分析能力","note":"需购买或通过渠道获取具体报告"}
+]

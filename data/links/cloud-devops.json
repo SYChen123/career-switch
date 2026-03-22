@@ -1,0 +1,10 @@
+[
+  {"title":"AWS Documentation - Getting Started","desc":"Official AWS docs and tutorials for core services.","url":"https://aws.amazon.com/getting-started/","source":"aws.amazon.com","relevance":9,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Google Cloud - Getting Started","desc":"Official Google Cloud quickstarts and tutorials.","url":"https://cloud.google.com/docs/overview","source":"cloud.google.com","relevance":9,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Docker Docs","desc":"Official Docker documentation and tutorials for containerization.","url":"https://docs.docker.com/get-started/","source":"docs.docker.com","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Kubernetes - Learn Kubernetes","desc":"Official Kubernetes documentation and tutorials.","url":"https://kubernetes.io/docs/tutorials/","source":"kubernetes.io","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Terraform - Learn","desc":"Infrastructure as Code with HashiCorp Terraform tutorials.","url":"https://developer.hashicorp.com/terraform/tutorials","source":"developer.hashicorp.com","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Azure - Get Started","desc":"Microsoft Azure quickstarts and documentation.","url":"https://learn.microsoft.com/en-us/azure/","source":"learn.microsoft.com","relevance":8,"quality":9,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"CNCF - Cloud Native Tutorials","desc":"Cloud-native projects and tutorials hosted by CNCF.","url":"https://www.cncf.io/projects/","source":"cncf.io","relevance":7,"quality":8,"fetched_at":"2026-03-22T14:56:00Z"},
+  {"title":"Alibaba Cloud - Getting Started","desc":"阿里云官方入门文档与产品教程（中文）。","url":"https://www.aliyun.com/","source":"aliyun.com","relevance":7,"quality":8,"fetched_at":"2026-03-22T14:56:00Z"}
+]

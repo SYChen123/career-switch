@@ -1,0 +1,10 @@
+[
+  {"title":"CFA Program (CFA Institute)","desc":"全球认可的投资管理与分析证书路径，适合想进入投研/资产管理的学习者。","url":"https://www.cfainstitute.org/programs/cfa-program","source":"cfainstitute.org","relevance":9,"quality":9,"fetched_at":"2026-03-22T15:24:00Z","stage":"intermediate","order":2,"prerequisites":"基础会计与金融知识"},
+  {"title":"Coursera - Financial Markets (Yale)","desc":"罗伯特·席勒教授的金融市场课程，适合入门金融市场概念。","url":"https://www.coursera.org/learn/financial-markets-global","source":"coursera.org","relevance":8,"quality":9,"fetched_at":"2026-03-22T15:24:00Z","stage":"beginner","order":1,"prerequisites":"无/基础数学"},
+  {"title":"Investopedia - Tutorials","desc":"面向个人和初学者的金融词条与操作指南，适合快速了解金融工具。","url":"https://www.investopedia.com/","source":"investopedia.com","relevance":8,"quality":7,"fetched_at":"2026-03-22T15:24:00Z","stage":"beginner","order":1,"prerequisites":"无"},
+  {"title":"一点财经/第一财经 (财经媒体)","desc":"国内权威财经新闻与分析，跟踪市场与行业资讯。","url":"https://www.yicai.com/","source":"yicai.com","relevance":7,"quality":8,"fetched_at":"2026-03-22T15:24:00Z","stage":"intermediate","order":3,"prerequisites":"基础金融知识"},
+  {"title":"QuantStart - Quantitative Finance Tutorials","desc":"量化与算法交易入门资料与教程，适合技术背景转金融者。","url":"https://www.quantstart.com/","source":"quantstart.com","relevance":7,"quality":8,"fetched_at":"2026-03-22T15:24:00Z","stage":"advanced","order":4,"prerequisites":"编程与数学基础"},
+  {"title":"edX - Finance Courses","desc":"高校金融课程集合（投资学、公司金融等）。","url":"https://www.edx.org/learn/finance","source":"edx.org","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:24:00Z","stage":"beginner","order":1,"prerequisites":"无/基础"},
+  {"title":"Khan Academy - Finance & Capital Markets","desc":"基础金融与资本市场免费课程，适合零基础学习者。","url":"https://www.khanacademy.org/economics-finance-domain/core-finance","source":"khanacademy.org","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:24:00Z","stage":"beginner","order":1,"prerequisites":"无"},
+  {"title":"银行/券商官方研究报告（示例）","desc":"实务中的行业研究报告，帮助理解投研流程与模版。","url":"https://example.com/report","source":"bank research","relevance":8,"quality":8,"fetched_at":"2026-03-22T15:24:00Z","stage":"advanced","order":5,"prerequisites":"行业背景与数据分析能力","note":"需通过券商/银行获取具体报告"}
+]
