@@ -431,12 +431,39 @@ async function loadExternalData() {
                 window.externalIndustries = externalIndustries; // for debugging
                 industries.length = 0;
                 externalIndustries.forEach(i => industries.push(i));
+                // update link counts from available data files, then render
+                await updateLinkCounts();
                 renderIndustries();
             }
         }
     } catch (e) {
         console.warn('Failed to load external industries.json:', e);
     }
+}
+
+// update industries[].linkCount by attempting to fetch data/links/<id>.json
+async function updateLinkCounts() {
+    const promises = industries.map(async (ind) => {
+        try {
+            const resp = await fetch(`data/links/${ind.id}.json`, {cache: 'no-store'});
+            if (resp.ok) {
+                const data = await resp.json();
+                if (Array.isArray(data)) {
+                    ind.linkCount = data.length;
+                } else if (typeof data === 'object') {
+                    // count total links across modules
+                    let count = 0;
+                    Object.values(data).forEach(v => { if (Array.isArray(v)) count += v.length; });
+                    ind.linkCount = count;
+                }
+            } else {
+                // keep existing linkCount or zero
+            }
+        } catch (e) {
+            // ignore
+        }
+    });
+    await Promise.all(promises);
 }
 
 // Try to fetch per-industry links file when needed
