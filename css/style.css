@@ -380,6 +380,18 @@ body {
     }
 }
 
+/* Touch & accessibility improvements */
+/* Ensure anchors and interactive cards respond to touch on mobile */
+a, .industry-card, .link-item {
+    -webkit-tap-highlight-color: rgba(0,0,0,0.06);
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+}
+
+.modal-content {
+    -webkit-overflow-scrolling: touch;
+}
+
 /* Empty State */
 .empty-state {
     text-align: center;

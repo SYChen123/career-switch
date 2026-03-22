@@ -447,10 +447,13 @@ function renderIndustries(data = industries) {
     
     // 添加点击事件
     document.querySelectorAll('.industry-card').forEach(card => {
-        card.addEventListener('click', () => {
+        const open = () => {
             const id = card.dataset.id;
             openModal(id);
-        });
+        };
+        card.addEventListener('click', open);
+        // 支持移动端触摸事件，提升触控响应
+        card.addEventListener('touchstart', open);
     });
 }
 
@@ -472,7 +475,7 @@ function openModal(id) {
                 <h4>${moduleName}</h4>
                 <div class="link-list">
                     ${moduleLinks.map(link => `
-                        <a href="${link.url}" target="_blank" class="link-item">
+                        <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="link-item">
                             <div class="link-info">
                                 <div class="link-title">${link.title}</div>
                                 <div class="link-desc">${link.desc}</div>
