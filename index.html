@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>职路通 | 职业技能转换知识导航</title>
+    <meta name="description" content="帮助职场人系统掌握相近行业和上下游知识技能，提供行业上下游知识导航与经验分享">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">职路通 <span class="tagline">职业技能转换导航</span></h1>
+            <p class="hero">帮助职场人系统掌握相近行业/上下游知识，让跳槽更有底气</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 搜索区域 -->
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索行业、岗位、技能...">
+                <button id="searchBtn">搜索</button>
+            </div>
+            <div class="search-tags" id="searchTags">
+                <span class="tag" data-filter="运营">运营</span>
+                <span class="tag" data-filter="产品">产品</span>
+                <span class="tag" data-filter="销售">销售</span>
+                <span class="tag" data-filter="技术">技术</span>
+                <span class="tag" data-filter="互联网">互联网</span>
+            </div>
+        </section>
+
+        <!-- 行业导航 -->
+        <section class="industries-section">
+            <h2 class="section-title">转行知识导航</h2>
+            <div class="industries-grid" id="industriesGrid">
+                <!-- 动态加载 -->
+            </div>
+        </section>
+
+        <!-- 知识详情弹窗 -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="modal-close" id="modalClose">&times;</span>
+                <div id="modalBody">
+                    <!-- 动态加载 -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>知识开源 · 职场互助</p>
+            <p class="copyright">欢迎提交优质知识链接，共同完善知识体系</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
